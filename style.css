@@ -1,0 +1,46 @@
+* {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+body {
+    background-color: black;
+} 
+
+.container {
+    width: 800px ;
+    margin: 20px auto ;
+}
+
+#keluhan {
+    margin-top: 160px ;
+    text-align: center ;
+    color: white ;
+    font-size: 50px ;
+    animation: both ubahwarna 5s infinite ;
+}
+
+
+@media only screen and (max-width : 600px ){
+    .container {
+        width: 350px ;
+    }
+}
+
+@keyframes ubahwarna {
+    10% {
+        color: cadetblue ;
+    }
+
+    40% {
+        color: red ;
+    }
+
+    80% {
+        color : green ;
+    }
+
+    100% {
+        color : white ;
+    }
+}
